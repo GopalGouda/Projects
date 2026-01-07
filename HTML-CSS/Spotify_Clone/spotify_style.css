@@ -1,0 +1,118 @@
+*{
+  font-family: "Montserrat", sans-serif;
+  margin:0;
+  color: white;
+  overflow:hidden;
+}
+body{
+    background-color: black;
+}
+
+.main{
+    display: flex;
+    height: 100vh; /*vh-view port height. 100vh -> 100% of vh/display height*/
+    padding: 0.5rem;
+    
+
+}
+
+.sidebar{
+    background-color:green;
+    width: 345px;
+    border-radius: 1rem; /*16px*/
+
+
+}
+
+.main-content{
+    background-color: #121212;
+    flex: 1; /*flex:1 means give all remain space to me*/
+    border-radius: 1rem; /*16px*/
+    overflow: auto;
+
+}
+
+.music-player{
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+    height:72px;
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav{
+    background-color: #121212;
+    border-radius: 1rem ;
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    padding: 0.5rem 0.75rem;
+}
+
+.nav-option{
+    line-height: 2.5rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    opacity: 0.7;
+    padding: 0.5rem 0.75rem;
+    
+}
+
+.nav-option:hover{
+    opacity: 1;
+}
+
+.nav-option i{
+    font-size: 1.25rem;
+}
+
+.nav-option a{
+    font-size: 1rem;
+}
+
+.library{
+    background-color: #121212;
+    border-radius: 1rem;
+    height: 100%;
+    margin-top: 0.5rem;
+    padding: 0.5rem 0.75rem;
+
+}
+
+.options{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.lib-option{
+    opacity: 0.7;
+}
+.lib-option:hover{
+    opacity: 1;
+}
+
+.lib-option img{
+    height: 1.25rem;
+    width: 1.25rem;
+}
+
+.icons{
+    font-size: 1.25rem;
+    display: flex;
+}
+
+.icons i{
+    opacity: 0.7;
+    margin-right: 1rem;
+}
+
+.icons i:hover{
+    opacity: 1;
+}
