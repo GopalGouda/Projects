@@ -37,7 +37,7 @@ No external Python packages are required.
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/GopalGouda/snake-water-gun.git
+git clone https://github.com/gopalgouda/snake-water-gun.git
 ```
 
 ### 2. Go into the project folder
