@@ -48,9 +48,9 @@ Click on a project to explore its source code and README.
 
 | Project                                        | Description                             | Technologies    |
 | ---------------------------------------------- | --------------------------------------- | --------------- |
-| [🎮 Snake Water Gun](Python_Projects\snake-water-gun\snake_water_gun.py) | A simple GUI-based Snake Water Gun game | Python, Tkinter |
+| [🎮 Snake Water Gun](https://github.com/GopalGouda/Projects/tree/main/Python_Projects/snake-water-gun) | A simple GUI-based Snake Water Gun game | Python, Tkinter |
 
-### 🎮 [Snake Water Gun](Python_Projects\snake-water-gun\snake_water_gun.py)
+### 🎮 [Snake Water Gun](https://github.com/GopalGouda/Projects/tree/main/Python_Projects/snake-water-gun)
 
 A simple graphical Snake Water Gun game built using Python and Tkinter.
 
